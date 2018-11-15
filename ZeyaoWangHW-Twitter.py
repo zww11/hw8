@@ -87,9 +87,4 @@ for i in range(3):
 
 ## 4. write code to print out the text and created_at values from 5 tweets,
 ## with a blank line after each as shown in the sample output
-for single_tweet in results[:5]:
-	print("\nHere's the text of the tweet:")
-	print(single_tweet["text"])
-	print("Here is the created_at of that tweet:")
-	print(single_tweet["created_at"])
-	print("\n")
+
